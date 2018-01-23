@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ycm.man.timershaftlibrary.TimerViewItem
+    xmlns:ycm="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_timer_item"
+    android:layout_width="match_parent"
+    ycm:LeftLineColor="@color/colorGreen"
+    ycm:RightLineColor="@color/colorGreen"
+    ycm:VerticalLineColor="@color/colorGreen"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"/>
+<!--ycm:LeftLineColor="#08cb87"
+    ycm:RightLineColor="#08cb87"
+    ycm:VerticalLineColor="#08cb87"-->

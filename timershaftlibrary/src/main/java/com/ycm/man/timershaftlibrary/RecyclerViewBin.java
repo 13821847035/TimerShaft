@@ -8,17 +8,6 @@ public class RecyclerViewBin {
 
     public String type;//top 顶部 ，left 左边，right 右边
 
-    private int resoureId;
-
-
-    public int getResoureId() {
-        return resoureId;
-    }
-
-    public void setResoureId(int resoureId) {
-        this.resoureId = resoureId;
-    }
-
     public String getType() {
         return type;
     }
@@ -27,8 +16,7 @@ public class RecyclerViewBin {
         this.type = type;
     }
 
-    public RecyclerViewBin(String type,int resoureId) {
+    public RecyclerViewBin(String type) {
         this.type=type;
-        this.resoureId=resoureId;
     }
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TimerViewItem">
+        <!--左边的横线颜色-->
+        <attr name="LeftLineColor" format="color" />
+        <!--右边的横线颜色-->
+        <attr name="RightLineColor" format="color" />
+        <!--竖线的颜色-->
+        <attr name="VerticalLineColor" format="color" />
+
+    </declare-styleable>
+
+
+</resources>

@@ -7,7 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 
-import com.ycm.man.timershaftlibrary.MyRecyclerView;
+import com.ycm.man.timershaftlibrary.MyRecyclerView1;
 import com.ycm.man.timershaftlibrary.RecyclerViewBin;
 
 import java.util.ArrayList;
@@ -25,14 +25,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mContext=this;
         data=new ArrayList<>();
-        data.add(new RecyclerViewBin("top",R.color.colorAccent));
-        data.add(new RecyclerViewBin("left",R.color.colorPrimaryDark));
-        data.add(new RecyclerViewBin("right",R.color.colorAccent));
-        data.add(new RecyclerViewBin("left",R.color.colorPrimaryDark));
-        data.add(new RecyclerViewBin("right",R.color.colorAccent));
+        data.add(new RecyclerViewBin("top"));
+        data.add(new RecyclerViewBin("left"));
+        data.add(new RecyclerViewBin("right"));
+        data.add(new RecyclerViewBin("left"));
+        data.add(new RecyclerViewBin("right"));
         rv_timer_shaft = (RecyclerView) findViewById(R.id.rv_timer_shaft);
 //        MyRecyclerView myRecyclerView = new MyRecyclerView(mContext,data);
-        MyRecyclerView myRecyclerView = new MyRecyclerView(mContext);
+//        MyRecyclerView myRecyclerView = new MyRecyclerView(mContext);
+        MyRecyclerView1 myRecyclerView = new MyRecyclerView1(mContext);
         LinearLayoutManager layoutManager = new LinearLayoutManager(mContext);
         // 设置布局管理器
         rv_timer_shaft.setLayoutManager(layoutManager);
