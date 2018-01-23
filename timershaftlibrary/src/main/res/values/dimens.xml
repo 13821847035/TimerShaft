@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size">42px</dimen>
+    <dimen name="text_size_usually">36px</dimen>
+    <dimen name="text_size_small">24px</dimen>
+    <dimen name="text_size_title">48px</dimen>
+</resources>

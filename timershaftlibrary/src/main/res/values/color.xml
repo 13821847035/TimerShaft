@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorGrayGray">#d9d9d9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorFragment">#f4f4f4</color>
+    <color name="colorSamll">#888888</color>
+    <color name="colorTextChecked">#ffb657</color>
+    <color name="colorGreen">#08cb87</color>
+
+</resources>
